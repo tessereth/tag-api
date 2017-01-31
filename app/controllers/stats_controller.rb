@@ -19,6 +19,9 @@ class StatsController < ApplicationController
 
   private
 
+  # this is a duplicate of tags_controller, suggesting that the controllers
+  # possibly shouldn't be split up like this. But it's not entirely clear
+  # what the better way is.
   def entity_params
     params.permit(:entity_type, :entity_id)
   end
