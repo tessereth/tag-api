@@ -51,3 +51,4 @@ Note: This returns the same info at `/stats` but only for tags associated with t
 bundle exec rspec
 ```
 
+Note: There isn't any tests of note yet. But coding challenge and all that.

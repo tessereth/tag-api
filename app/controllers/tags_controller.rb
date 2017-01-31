@@ -5,6 +5,7 @@ class TagsController < ApplicationController
     params[:tags].each do |tag|
       entity.tags << Tag.find_or_create_by(name: tag)
     end
+    render status: :created
   end
 
   def show
