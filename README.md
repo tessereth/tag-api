@@ -1,24 +1,18 @@
-# README
+# Generic Tagging JSON API
+  
+This is an implementation of the coding challenge https://gist.github.com/dradford/9407c8c6af5ea3469596 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+```
+bundle install
+rails db:create
+rails db:migrate
+```
 
-* Ruby version
+## Tests
 
-* System dependencies
+```
+bundle exec rspec
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
